@@ -8,14 +8,14 @@ Here is a Python implementation of the compiler, that outputs a list of integers
 def compile(program):
     return [len(line.split(TOV))-1 for line in program.split(self.SEP)]
 ```
-And so here's an example program:
+An example program:
 ```
 tov
 tov tov tov
 tov
 ```
 The latter used the default values `'tov'` and `'\n'` of `TOV` and `SEP`, but that's configurable, of course,
-and so the same program could be written as:
+so the same program could be written as:
 ```
 well
 well well well
@@ -25,7 +25,7 @@ Or if `TOV='1'` and `SEP='0'`:
 ```
 1011101
 ```
-And equivalently: (as the compiler ignores stuff he doesn't understand)
+And equivalently: (as the impatient compiler ignores stuff he doesn't understand)
 ```
 I used to have ten bottles of beer on my wall, 10 bottles of beer.
 I took 1 down, I passed it around, but no one drank that 1 beer,
