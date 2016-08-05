@@ -35,7 +35,7 @@ Maybe I'll drink that 1 beer myself later.
 You get the idea.
 
 ## The World
-A harmless `PC` was once `0`, but now increases (by `1`) every step it takes,
+A seemingly harmless `PC` was once `0`, but now increases (by `1`) every step it takes,
 interpreting *a single stack*, that supports multiculturalism of numbers and strings living together,
 so codes and values are interchangeable. Everything can theoretically change during runtime, but more often
 than not this design will lead to horrible crashes if we're not careful.
